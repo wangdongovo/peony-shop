@@ -1,10 +1,12 @@
 import React from 'react'
 
 
-const Main = () => {
+import './index.less'
+
+const Main = ({ children }: { children: React.ReactNode }) => {
     return (
-        <div>
-            <h1>Layout</h1>
+        <div className='main-section'>
+            { children }
         </div>
     )
 }

@@ -1,12 +1,14 @@
 import React from 'react'
 
+import Layout from '@/components/layout/index'
 
+import './index.less'
 const Home = () => {
-    return (
-        <div>
-            <h1>Home</h1>
-        </div>
-    )
+  return (
+    <Layout>
+      <div className="home-wrapper">首页</div>
+    </Layout>
+  )
 }
 
 export default Home
