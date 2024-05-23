@@ -6,6 +6,7 @@ import Error from '@/components/error/index'
 import Home from '@/pages/home/index'
 import Me from '@/pages/me/index'
 import Production from '@/pages/production/index'
+import Login from '@/pages/login/index'
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: '/production',
         element: <Production />
+      },
+      {
+        path: '/login',
+        element: <Login />
       }
     ]
   }
