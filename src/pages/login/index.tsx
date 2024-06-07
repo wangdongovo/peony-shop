@@ -2,6 +2,16 @@ import React from 'react'
 
 import './index.less'
 const Login = () => {
+
+
+
+
+
+
+  // 登录
+  const handleLogin = () => {
+    console.log('登录')
+  }
   return (
     <div className="login-wrapper">
       <div className="login-content">
@@ -13,7 +23,7 @@ const Login = () => {
             <input type="password" placeholder="请输入密码" />
           </div>
 
-          <div className="button-section">登录</div>
+          <div className="button-section" onClick={handleLogin}>登录</div>
         </div>
       </div>
     </div>

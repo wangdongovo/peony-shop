@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import './index.less'
 
 const Nav = () => {
-  const [nav, setNav] = useState([
+  const [nav] = useState([
     {
       name: '首页',
       path: '/'
