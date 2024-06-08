@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Button, Space } from '@arco-design/web-react'
+
 interface State {
   createTime: string
   goodsId: string
@@ -23,6 +25,7 @@ class Production extends React.Component<{}, State> {
     const { createTime, goodsName } = this.state
     return (
       <div>
+      <Button type='primary'>Primary</Button>
         产品展示页面
         <p>创建时间：{createTime}</p>
         <p>商品名称：{goodsName}</p>

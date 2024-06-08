@@ -9,6 +9,8 @@ import router from '@/router/index'
 import '@/assets/less/global.less'
 import './index.less'
 
+import "@arco-design/web-react/dist/css/arco.css"
+
 import reportWebVitals from './reportWebVitals'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
