@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Button, Space } from '@arco-design/web-react'
+import { Button } from '@arco-design/web-react'
 
 interface State {
   createTime: string
@@ -21,11 +21,22 @@ class Production extends React.Component<{}, State> {
     }
   }
 
+  handleChange = () => {
+    this.setState({
+      goodsName: '测试商品2'
+    }, () => console.log(this.state))
+
+
+    console.log(this.state)
+  }
+
   render() {
     const { createTime, goodsName } = this.state
     return (
       <div>
-      <Button type='primary'>Primary</Button>
+        <Button type="primary" onClick={this.handleChange}>
+          更改商品名
+        </Button>
         产品展示页面
         <p>创建时间：{createTime}</p>
         <p>商品名称：{goodsName}</p>
