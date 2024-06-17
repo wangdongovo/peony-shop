@@ -7,7 +7,7 @@ import router from '@/router/index'
 
 
 import '@/assets/less/global.less'
-import './index.less'
+
 
 import "@arco-design/web-react/dist/css/arco.css"
 
