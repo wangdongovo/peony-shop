@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
+import withAuth from '@/auth/withAuth'
+
 import './index.less'
 
 const Home = () => {
@@ -56,4 +58,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default withAuth(Home)
