@@ -9,7 +9,7 @@ import router from '@/router/index'
 import '@/assets/less/global.less'
 
 
-import "@arco-design/web-react/dist/css/arco.css"
+// import "@arco-design/web-react/dist/css/arco.css"
 
 import reportWebVitals from './reportWebVitals'
 
