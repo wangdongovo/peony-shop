@@ -8,6 +8,8 @@ import Me from '@/pages/me/index'
 import Production from '@/pages/production/index'
 import Login from '@/pages/login/index'
 
+import Detail from '@/pages/detail/index'
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -17,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />
+      },
+      {
+        path: '/detail',
+        element: <Detail />
       },
       {
         path: '/me',

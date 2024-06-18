@@ -26,7 +26,7 @@ const Me = () => {
   return (
     <div className="me-container">
 
-      <NavBar></NavBar>
+      <NavBar />
 
 
       <div className='wrapper'>
