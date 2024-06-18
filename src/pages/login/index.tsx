@@ -7,6 +7,8 @@ const Login = () => {
 
   // 登录
   const handleLogin = () => {
+
+    localStorage.setItem('isAuthenticated', 'true')
     console.log('登录')
     navigate('/')
   }
