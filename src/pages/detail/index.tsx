@@ -7,7 +7,7 @@ import './index.less'
 const Detail = () => {
     return(
         <div className='detail-container'>
-            <NavBar />
+            <NavBar title='详情'/>
             Detail
         </div>
     )

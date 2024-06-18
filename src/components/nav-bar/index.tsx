@@ -4,14 +4,19 @@ import { useNavigate } from 'react-router-dom'
 import backIcon from '@/assets/image/back.png'
 import './index.less'
 
+interface NavBarProps {
+  title?: string
+}
 
 
 
 
 
 
+const NavBar = (props: NavBarProps) => {
 
-const NavBar = () => {
+
+  const {title} = props
   const navigate = useNavigate()
 
 
@@ -21,7 +26,7 @@ const NavBar = () => {
   return(
     <div className="nav-bar">
         <img src={backIcon} alt=""  onClick={handleBack}/>
-       <span>编辑资料</span>
+       <span>{title}</span>
       </div>
   )
 }

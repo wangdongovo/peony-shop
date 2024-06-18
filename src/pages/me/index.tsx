@@ -26,7 +26,7 @@ const Me = () => {
   return (
     <div className="me-container">
 
-      <NavBar />
+      <NavBar title='编辑资料'/>
 
 
       <div className='wrapper'>
