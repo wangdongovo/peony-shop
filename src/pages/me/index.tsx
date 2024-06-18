@@ -5,7 +5,7 @@ import './index.less'
 import NavBar from '@/components/nav-bar/index'
 
 const Me = () => {
-  const [userInfo, setUserInfo] = useState({
+  const [userInfo] = useState({
     name: '芍药居小卖部',
     uid: '243244',
     intro: '有趣的简洁吸引粉丝',
