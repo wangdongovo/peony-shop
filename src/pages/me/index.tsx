@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import './index.less'
 
+
+import NavBar from '@/components/nav-bar/index'
+
 const Me = () => {
   const [userInfo, setUserInfo] = useState({
     name: '芍药居小卖部',
@@ -22,6 +25,8 @@ const Me = () => {
 
   return (
     <div className="me-container">
+
+      <NavBar></NavBar>
       <div className="avatar-section">
         <img src={userInfo.avatar} alt="" />
       </div>
