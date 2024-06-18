@@ -27,6 +27,9 @@ const Me = () => {
     <div className="me-container">
 
       <NavBar></NavBar>
+
+
+      <div className='wrapper'>
       <div className="avatar-section">
         <img src={userInfo.avatar} alt="" />
       </div>
@@ -66,6 +69,8 @@ const Me = () => {
           <div className="content">{userInfo.address}</div>
         </div>
       </div>
+      </div>
+      
     </div>
   )
 }
