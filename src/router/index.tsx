@@ -9,6 +9,7 @@ import Production from '@/pages/production/index'
 import Login from '@/pages/login/index'
 
 import Detail from '@/pages/detail/index'
+import ReactHooks from '@/pages/hooks/index'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home children={null}/>
+      },
+      {
+        path: '/hooks',
+        element: <ReactHooks />
       },
       {
         path: '/detail',
