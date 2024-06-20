@@ -31,7 +31,7 @@ const Home = () => {
 
   const handleDetail = (item: any) => {
     const {id} = item
-    navigate(`/detail?id=${id}`)
+    navigate(`/detail/${id}`)
   }
 
   return (

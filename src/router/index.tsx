@@ -26,7 +26,7 @@ const router = createBrowserRouter([
         element: <ReactHooks />
       },
       {
-        path: '/detail',
+        path: '/detail/:id',
         element: <Detail />
       },
       {
